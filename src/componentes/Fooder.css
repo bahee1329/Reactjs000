@@ -1,0 +1,80 @@
+.fooder{
+    width: 100%;
+    
+    padding: 6rem 0;
+    background-color: rgba(19,19,19,0.8);
+    border-top: 2px solid white;
+    
+}
+
+.foodercon{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 80px;
+
+}
+
+.fooderleft{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+    font-size: 1.2rem;
+    
+}
+
+.mobile{
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    
+}
+
+.mail{
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.fooderright{
+
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.fooderright h2{
+    padding:  0;
+}
+
+.fooderright p{
+    padding: 1.5rem 0;
+}
+.fooderright div{
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:640px) {
+
+    .foodercon{
+    
+    display: grid;
+    grid-template-columns: 1fr
+
+}
+
+}
+

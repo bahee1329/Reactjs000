@@ -1,0 +1,60 @@
+.projectcon{
+    height: 100vh;
+    width:100%;
+    position: relative;
+
+}
+
+.pimg{
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+.projectcon::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    opacity: 0.6;
+
+}
+
+.project{
+    height: 100%;
+    width: 100%;
+}
+
+.contentx{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left:50%;
+    text-align: center;
+}
+
+.contentx h1{
+    font-size: 6rem;
+    padding-bottom: 20px;
+}
+
+.contentx p{
+    font-size: 2rem;
+}
+
+@media screen and (max-width:640px) {
+    .contentx h1{
+        font-size: 5rem;
+        padding-bottom: 20px;
+    }
+    
+    .contentx p{
+        font-size: 1.1rem;
+    }
+}
